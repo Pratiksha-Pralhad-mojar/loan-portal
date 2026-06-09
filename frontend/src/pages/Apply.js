@@ -22,7 +22,7 @@ function Apply() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/applications",
+        "https://loan-portal-7ajr.onrender.com/api/applications",
         form
       );
 
